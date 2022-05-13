@@ -7,6 +7,7 @@ function onScroll() {
 
   activateMenuAtCurrentSection(home)
   activateMenuAtCurrentSection(services)
+  activateMenuAtCurrentSection(testimonial)
   activateMenuAtCurrentSection(about)
   activateMenuAtCurrentSection(contact)
 }
@@ -80,4 +81,16 @@ ScrollReveal({
   #services .card,
   #about,
   #about header,
-  #about .content`)
+  #about .content
+  #testimonial,
+  #testimonial header,
+  #testimonial .testimonials`)
+
+  const swiper = new Swiper('.swiper', {
+    slidesPerView: 1,
+    pagination: {
+      el: '.swiper-pagination'
+    },
+    mousewheel: true,
+    keyboard: true,
+  });
