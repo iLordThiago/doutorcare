@@ -761,18 +761,12 @@ footer .social-links {
   }
 
   #testimonial .testimonials {
-    flex-direction: row;
-    flex-wrap: wrap;
-    gap: 4rem;
 
     border-radius: 4px;
-
-    padding: 3.2rem;
 
     background: var(--brand-back);
 
     width: 100%;
-    flex-grow: 1;
   }
 
 
